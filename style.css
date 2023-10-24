@@ -1,0 +1,117 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+	background-image:url('wp3006057.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: grid;
+    place-items: center;
+    justify-content: center;
+  }
+.container{
+    width: 30em;
+	margin: 4em;
+}
+.head__section img{
+    display:block;
+    margin: 0 auto;
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.head__section p{
+    text-align: center;
+	margin-top: 13px;
+	font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+.social__links ul li{
+    width: 100%;
+    margin: 1.2rem 0;
+    background: rgb(100 100 100 / 40%);
+    backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 0 0.5rem  rgb(255, 255, 255);
+}
+.js-tilt-glare{
+    border-radius: 10px;
+}
+.social__links ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 1rem;
+
+}
+.social__links ul li a i{
+    text-align: center;
+    line-height: 2rem;
+	padding: 10px 20px;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    transform: scale(1.4) translateZ(50px);
+    transition: 0.25s;
+}
+.social__links ul li a span{
+    line-height: 1.4rem;
+}
+.social__links ul .gmail:hover{
+    background: rgba(182, 0, 0, 0.6);
+}
+.social__links ul .facebook:hover{
+    background:rgba(0, 68, 255, 0.6);
+}
+.social__links ul .instagram:hover{
+    background: rgba(220, 20, 60, 0.6);
+}
+.social__links ul .youtube:hover{
+    background: rgb(255, 51, 0, 0.6);
+}
+.social__links ul .twitter:hover{
+    background: rgb(0, 195, 255, 0.6);
+}
+.social__links ul .linkedin:hover{
+    background: rgb(43, 0, 255, 0.6);
+}
+.social__links ul .discord:hover{
+    background: rgb(85, 0, 255, 0.6);
+}
+.social__links ul .spotify:hover{
+    background: rgb(0, 175, 9, 0.6);
+}
+.social__links ul .reddit:hover{
+    background: rgb(255, 55, 0, 0.6);
+}
+.social__links ul .pinterest:hover{
+    background: rgb(255, 0, 4, 0.6);
+}
+.social__links ul .snapchat:hover{
+    background: rgb(242, 255, 0, 0.6);
+}
+.social__links ul .threads:hover{
+    background: #000000aa;
+}
+.social__links ul .github:hover{
+    background: #000000a1;
+}
+@media only screen and (max-width: 549px) {
+    .container{
+        width: 88vw;
+    }
+  }
